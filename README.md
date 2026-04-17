@@ -25,7 +25,7 @@ Template pour créer des outils interactifs Nocode Factory — checklists, calcu
 ```
 ├── CLAUDE.md             ← Instructions pour Claude (recettes par type d'outil)
 ├── README.md             ← Ce fichier
-├── tool.html             ← Template HTML vierge à dupliquer
+├── index.html             ← Template HTML vierge à dupliquer
 │
 ├── ncf-design.css        ← Design system NCF (ne pas modifier)
 ├── ncf-components.js     ← Web components nav/footer (ne pas modifier)
