@@ -27,7 +27,7 @@ type.png
 
 ### 1. Nommer le fichier
 
-Créer `{slug}.html` en kebab-case depuis `tool.html`.
+Créer `{slug}.html` en kebab-case depuis `index.html`.
 Exemples : `checklist-audit-automatisation.html`, `calculateur-roi-nocode.html`
 
 ### 2. Remplir le `<head>`
