@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <base href="https://crm-migration-checklist.pages.dev/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TITRE DE L'OUTIL | Nocode Factory</title>
+  <meta name="description" content="DESCRIPTION SEO (150-160 caractères)">
+  <meta property="og:title" content="OG TITLE">
+  <meta property="og:description" content="OG DESCRIPTION">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="ncf-design.css">
+</head>
+<body class="page-tool">
+
+<ncf-nav></ncf-nav>
+
+<div class="tool-layout">
+
+  <aside class="tool-aside">
+    <ncf-breadcrumb label="TITRE COURT DE L'OUTIL"></ncf-breadcrumb>
+    <div class="tool-aside-body">
+      <div class="tool-aside-header">
+        <span class="tool-badge">TYPE DE L'OUTIL</span>
+        <h1 class="tool-title">TITRE H1 COMPLET</h1>
+        <button class="btn btn-primary" id="btn-share">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+            <polyline points="16,6 12,2 8,6"/>
+            <line x1="12" y1="2" x2="12" y2="15"/>
+          </svg>
+          Partager
+        </button>
+      </div>
+      <div class="tool-aside-cta">
+        <div class="cta-top">
+          <img src="type.png" alt="" class="cta-photo" aria-hidden="true">
+          <p class="cta-title">Et si on bossait ensemble ?</p>
+          <ul class="cta-list">
+            <li>
+              <span class="cta-list-dot"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg></span>
+              + 350 projets réalisés
+            </li>
+            <li>
+              <span class="cta-list-dot"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg></span>
+              100% de satisfaction
+            </li>
+            <li>
+              <span class="cta-list-dot"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg></span>
+              Éligibles CII
+            </li>
+          </ul>
+          <a href="https://www.nocodefactory.fr/contact" class="cta-action" target="_blank" rel="noopener">
+            Devis gratuit
+            <svg class="cta-btn-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7H12M7.5 3L12 7L7.5 11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="tool-content">
+
+    <section class="seo-block">
+      <h2 class="seo-block-title">TITRE SECTION SEO 1 (mot-clé long-tail)</h2>
+      <p>
+        Texte SEO paragraphe 1 — inclure 1-2 liens internes NCF.
+      </p>
+      <p>
+        Texte SEO paragraphe 2.
+      </p>
+    </section>
+
+    <section class="seo-block">
+      <h2 class="seo-block-title">TITRE SECTION SEO 2 (mot-clé long-tail différent)</h2>
+      <p>
+        Texte SEO paragraphe 1 — inclure 1-2 liens internes NCF.
+      </p>
+      <p>
+        Texte SEO paragraphe 2.
+      </p>
+    </section>
+
+    <!-- ZONE OUTIL — voir CLAUDE.md selon le type d'outil -->
+
+  </div>
+
+</div>
+
+<!-- Modale email -->
+<div class="modal-overlay" id="modal-overlay"
+     role="dialog" aria-modal="true" aria-labelledby="modal-heading">
+  <div class="modal" id="modal-box"></div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<ncf-footer></ncf-footer>
+
+<!-- SCRIPTS — voir CLAUDE.md selon le type d'outil -->
+<script src="ncf-components.js"></script>
+
+</body>
+</html>
